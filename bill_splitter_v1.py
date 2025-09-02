@@ -195,7 +195,7 @@ def get_recurring_bills(user_label):
     print(f"The total of recurring bills paid by {user_label} is: $ {total}")
     return bill_dict, total
 
-user_1_total = get_recurring_bills("User_1")
+user_1_bills, user_1_total = get_recurring_bills("User_1")
 
 
 # [user_2 input]-----------------------------------------------
@@ -204,7 +204,7 @@ user_1_total = get_recurring_bills("User_1")
 print_divider("[RECURRING BILLS: USER_2 ENTRY]")
 
 
-user_2_total = get_recurring_bills("User_2")
+user_2_bills, user_2_total = get_recurring_bills("User_2")
 
 
 # [calculation of result]-----------------------------------------------
